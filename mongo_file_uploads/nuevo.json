@@ -1,0 +1,1170 @@
+{"versions": [ 
+    {
+        "dataset" : {
+            "fileId" : "5b34b6b8f9e28c2694742124",
+            "lastModifiedDate" : "2018-06-28T10:22:06.789Z",
+            "fileUploadIds" : [ 
+                "5b34b548f9e28c27475d83bc", 
+                "5b34b554f9e28c27475d83c7", 
+                "5b34b55cf9e28c27475d83ca", 
+                "5b34b561f9e28c27475d83d1", 
+                "5b34b566f9e28c27475d83d3", 
+                "5b34b572f9e28c27475d83d5", 
+                "5b34b596f9e28c27475d83de", 
+                "5b34b59bf9e28c27475d83e5", 
+                "5b34b5a7f9e28c27475d83e7", 
+                "5b34b5aff9e28c27475d83ec", 
+                "5b34b5b9f9e28c27475d83ef", 
+                "5b34b5c5f9e28c27475d83f3", 
+                "5b34b5cff9e28c27475d83f9", 
+                "5b34b5d7f9e28c27475d83fe", 
+                "5b34b5dcf9e28c27475d8401", 
+                "5b34b5e1f9e28c27475d8405", 
+                "5b34b5f7f9e28c27475d8409"
+            ],
+            "calibrate" : false,
+            "scenarios" : [ 
+                "Parameters", 
+                "Base Scenario"
+            ]
+        },
+        "isSensitivityReleasedToAll" : true,
+        "departments" : [ 
+            "CA", 
+            "CdG"
+        ],
+        "isReleasedToAllDepartments" : true,
+        "businessUnits" : [ 
+            {
+                "type" : "Complex",
+                "isSpecialEliminacionesIntragrupo" : false,
+                "isSpecialHolding" : false,
+                "isSpecialUAI" : false,
+                "fiscalPerimeter" : null,
+                "_id" : "5b34b40407e0fb1964265790",
+                "aggregationLevel0" : "Grupo Santander",
+                "aggregationLevel1" : "l1",
+                "aggregationLevel2" : "l2",
+                "name" : "bu1",
+                "macroGeography" : "Spain",
+                "currency" : "EUR"
+            }
+        ],
+        "businessUnitPermissions" : [],
+        "_id" : "5b34b41007e0fb1964265791",
+        "name" : "v1",
+        "copiedFromId" : null,
+        "copiedFromDatasetFileId" : null,
+        "createdDate" : "2018-06-28T10:10:24.819Z",
+        "creator" : "devteam",
+        "lastModifiedDate" : "2018-06-28T10:22:16.022Z",
+        "lastModifiedBy" : "devteam",
+        "lastModifiedAction" : "sensitivity release",
+        "status" : "Complete",
+        "baseScenarioFiles" : {
+            "BAvailCap" : {
+                "fileId" : "5b34b5a7f9e28c27475d83e7",
+                "description" : "Base Avail Cap",
+                "filename" : "B-AvCap.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 35449,
+                "status" : "Loaded",
+                "ordinal" : "1",
+                "lastUpdated" : 1530181031115.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BELVMG" : {
+                "fileId" : "5b34b5aff9e28c27475d83ec",
+                "description" : "Base ELVMG",
+                "filename" : "B-EL&VMG.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 353251,
+                "status" : "Loaded",
+                "ordinal" : "2",
+                "lastUpdated" : 1530181039476.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BFinStatBUp" : {
+                "fileId" : "5b34b5b9f9e28c27475d83ef",
+                "description" : "Base Fin Stat Bottom Up",
+                "filename" : "B-FinStatb-up.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 768499,
+                "status" : "Loaded",
+                "ordinal" : "3",
+                "lastUpdated" : 1530181048913.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BFinStatBUpAdj" : {
+                "fileId" : "5b34b5c5f9e28c27475d83f3",
+                "description" : "Base Fin Stat Bottom Up Adj",
+                "filename" : "B-FinStatb-up-adj.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 1169193,
+                "status" : "Loaded",
+                "ordinal" : "4",
+                "lastUpdated" : 1530181061179.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BNIMNewB" : {
+                "fileId" : "5b34b5cff9e28c27475d83f9",
+                "description" : "Base NIM New B",
+                "filename" : "B-NIMnewB.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 785592,
+                "status" : "Loaded",
+                "ordinal" : "5",
+                "lastUpdated" : 1530181071726.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BNOI" : {
+                "fileId" : "5b34b5d7f9e28c27475d83fe",
+                "description" : "Base NOI",
+                "filename" : "B-NOI.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 346635,
+                "status" : "Loaded",
+                "ordinal" : "6",
+                "lastUpdated" : 1530181079288.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BPPNR" : {
+                "fileId" : "5b34b5dcf9e28c27475d8401",
+                "description" : "Base PPNR",
+                "filename" : "B-PPNR.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 95490,
+                "status" : "Loaded",
+                "ordinal" : "7",
+                "lastUpdated" : 1530181083741.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BProvisions" : {
+                "fileId" : "5b34b5e1f9e28c27475d8405",
+                "description" : "Base Provisions",
+                "filename" : "B-Provisions.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 172076,
+                "status" : "Loaded",
+                "ordinal" : "8",
+                "lastUpdated" : 1530181088976.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BReqCap" : {
+                "fileId" : "5b34b5f7f9e28c27475d8409",
+                "description" : "Base Req Cap",
+                "filename" : "B-ReqCap.xlsx",
+                "calculationMode" : "Full calculation",
+                "filesizeBytes" : 728181,
+                "status" : "Loaded",
+                "ordinal" : "9",
+                "lastUpdated" : 1530181110959.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            }
+        },
+        "allScenarioFiles" : {
+            "EmbStratBox" : {
+                "fileId" : "5b34b548f9e28c27475d83bc",
+                "description" : "Emb > StratBox",
+                "filename" : "Emb-StratBox.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 2468183,
+                "status" : "Loaded",
+                "ordinal" : "1",
+                "lastUpdated" : 1530180936115.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "Macro" : {
+                "fileId" : "5b34b554f9e28c27475d83c7",
+                "description" : "Macro",
+                "filename" : "Macro.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 309319,
+                "status" : "Loaded",
+                "ordinal" : "2",
+                "lastUpdated" : 1530180948099.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "NIMBackB" : {
+                "fileId" : "5b34b55cf9e28c27475d83ca",
+                "description" : "NIM Back B",
+                "filename" : "NIMbackB.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 370044,
+                "status" : "Loaded",
+                "ordinal" : "3",
+                "lastUpdated" : 1530180956021.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "PLParameters" : {
+                "fileId" : "5b34b561f9e28c27475d83d1",
+                "description" : "P&L Parameters",
+                "filename" : "P&L parameters.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 88222,
+                "status" : "Loaded",
+                "ordinal" : "4",
+                "lastUpdated" : 1530180961037.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "RefVols" : {
+                "fileId" : "5b34b566f9e28c27475d83d3",
+                "description" : "Ref Vols",
+                "filename" : "Ref_vols.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 21289,
+                "status" : "Loaded",
+                "ordinal" : "5",
+                "lastUpdated" : 1530180965865.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "ReqCapCredit" : {
+                "fileId" : "5b34b572f9e28c27475d83d5",
+                "description" : "Req Cap Credit",
+                "filename" : "ReqCapcredit.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 617335,
+                "status" : "Loaded",
+                "ordinal" : "6",
+                "lastUpdated" : 1530180978240.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "AvailCapParam" : {
+                "fileId" : "5b34b596f9e28c27475d83de",
+                "description" : "Avail Cap Param",
+                "filename" : "AvailCap.xlsx",
+                "calculationMode" : "Full calculation",
+                "filesizeBytes" : 32236,
+                "status" : "Loaded",
+                "ordinal" : "7",
+                "lastUpdated" : 1530181014600.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "HistoricalGI" : {
+                "fileId" : "5b34b59bf9e28c27475d83e5",
+                "description" : "Historical GI",
+                "filename" : "Historical GI.xlsx",
+                "calculationMode" : "Full calculation",
+                "filesizeBytes" : 16753,
+                "status" : "Loaded",
+                "ordinal" : "8",
+                "lastUpdated" : 1530181019693.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            }
+        },
+        "switchboard" : {
+            "Base Scenario" : {
+                "name" : "Base Scenario",
+                "type" : "base",
+                "switches" : [ 
+                    {
+                        "businessUnit" : "bu1",
+                        "switches" : [ 
+                            {
+                                "key" : "BUNII",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUNFOI",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUEX",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUOPOER",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUASSETS",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BULIAB",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUPROV",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BURWA",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUEAD",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "CALCSPROV",
+                                "value" : "Bottom-up"
+                            }, 
+                            {
+                                "key" : "CALCLGPROV",
+                                "value" : "Bottom-up"
+                            }, 
+                            {
+                                "key" : "CALCLIR",
+                                "value" : "ON"
+                            }, 
+                            {
+                                "key" : "CALIBNIM",
+                                "value" : "ON"
+                            }, 
+                            {
+                                "key" : "CALIBCRRISK",
+                                "value" : "OFF"
+                            }, 
+                            {
+                                "key" : "CALIBFEES",
+                                "value" : "ON"
+                            }, 
+                            {
+                                "key" : "CALIBRWA",
+                                "value" : "OFF"
+                            }, 
+                            {
+                                "key" : "CALIBEAD",
+                                "value" : "OFF"
+                            }
+                        ]
+                    }, 
+                    {
+                        "businessUnit" : "Global",
+                        "switches" : [ 
+                            {
+                                "key" : "CAPPL",
+                                "value" : "Eur curr"
+                            }, 
+                            {
+                                "key" : "CAPRWA",
+                                "value" : "Eur const"
+                            }, 
+                            {
+                                "key" : "CAPPAY",
+                                "value" : "Top-down"
+                            }, 
+                            {
+                                "key" : "CAPDTA",
+                                "value" : "Top-down"
+                            }, 
+                            {
+                                "key" : "CAPSHORT",
+                                "value" : "Top-down"
+                            }
+                        ]
+                    }
+                ],
+                "lastModifiedBy" : "devteam",
+                "lastModifiedDate" : 1530181290367.0
+            }
+        },
+        "statusDescription" : null
+    }, 
+    {
+        "dataset" : {
+            "fileId" : "5b34f1d6f9e28c2694742152",
+            "lastModifiedDate" : "2018-06-28T14:34:20.525Z",
+            "fileUploadIds" : [ 
+                "5b34b548f9e28c27475d83bc", 
+                "5b34b554f9e28c27475d83c7", 
+                "5b34b55cf9e28c27475d83ca", 
+                "5b34b561f9e28c27475d83d1", 
+                "5b34b566f9e28c27475d83d3", 
+                "5b34b572f9e28c27475d83d5", 
+                "5b34b596f9e28c27475d83de", 
+                "5b34b59bf9e28c27475d83e5", 
+                "5b34b5a7f9e28c27475d83e7", 
+                "5b34b5aff9e28c27475d83ec", 
+                "5b34b5b9f9e28c27475d83ef", 
+                "5b34b5c5f9e28c27475d83f3", 
+                "5b34b5cff9e28c27475d83f9", 
+                "5b34b5d7f9e28c27475d83fe", 
+                "5b34b5dcf9e28c27475d8401", 
+                "5b34b5e1f9e28c27475d8405", 
+                "5b34b5f7f9e28c27475d8409"
+            ],
+            "calibrate" : false,
+            "scenarios" : [ 
+                "Parameters", 
+                "Base Scenario"
+            ]
+        },
+        "isSensitivityReleasedToAll" : false,
+        "departments" : [ 
+            "CA", 
+            "CdG"
+        ],
+        "isReleasedToAllDepartments" : false,
+        "businessUnits" : [ 
+            {
+                "type" : "Complex",
+                "isSpecialEliminacionesIntragrupo" : false,
+                "isSpecialHolding" : false,
+                "isSpecialUAI" : false,
+                "fiscalPerimeter" : null,
+                "_id" : "5b34b40407e0fb1964265790",
+                "aggregationLevel0" : "Grupo Santander",
+                "aggregationLevel1" : "l1",
+                "aggregationLevel2" : "l2",
+                "name" : "bu1",
+                "macroGeography" : "Spain",
+                "currency" : "EUR"
+            }
+        ],
+        "businessUnitPermissions" : [],
+        "_id" : "5b34f1d1d102360810646e86",
+        "name" : "v2",
+        "copiedFromId" : "5b34b41007e0fb1964265791",
+        "copiedFromDatasetFileId" : "5b34b6b8f9e28c2694742124",
+        "createdDate" : "2018-06-28T14:33:53.588Z",
+        "creator" : "devteam",
+        "lastModifiedDate" : "2018-06-28T14:34:20.525Z",
+        "lastModifiedBy" : "devteam",
+        "lastModifiedAction" : "compile",
+        "status" : "Complete",
+        "baseScenarioFiles" : {
+            "BAvailCap" : {
+                "fileId" : "5b34b5a7f9e28c27475d83e7",
+                "description" : "Base Avail Cap",
+                "filename" : "B-AvCap.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 35449,
+                "status" : "Loaded",
+                "ordinal" : "1",
+                "lastUpdated" : 1530181031115.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BELVMG" : {
+                "fileId" : "5b34b5aff9e28c27475d83ec",
+                "description" : "Base ELVMG",
+                "filename" : "B-EL&VMG.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 353251,
+                "status" : "Loaded",
+                "ordinal" : "2",
+                "lastUpdated" : 1530181039476.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BFinStatBUp" : {
+                "fileId" : "5b34b5b9f9e28c27475d83ef",
+                "description" : "Base Fin Stat Bottom Up",
+                "filename" : "B-FinStatb-up.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 768499,
+                "status" : "Loaded",
+                "ordinal" : "3",
+                "lastUpdated" : 1530181048913.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BFinStatBUpAdj" : {
+                "fileId" : "5b34b5c5f9e28c27475d83f3",
+                "description" : "Base Fin Stat Bottom Up Adj",
+                "filename" : "B-FinStatb-up-adj.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 1169193,
+                "status" : "Loaded",
+                "ordinal" : "4",
+                "lastUpdated" : 1530181061179.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BNIMNewB" : {
+                "fileId" : "5b34b5cff9e28c27475d83f9",
+                "description" : "Base NIM New B",
+                "filename" : "B-NIMnewB.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 785592,
+                "status" : "Loaded",
+                "ordinal" : "5",
+                "lastUpdated" : 1530181071726.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BNOI" : {
+                "fileId" : "5b34b5d7f9e28c27475d83fe",
+                "description" : "Base NOI",
+                "filename" : "B-NOI.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 346635,
+                "status" : "Loaded",
+                "ordinal" : "6",
+                "lastUpdated" : 1530181079288.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BPPNR" : {
+                "fileId" : "5b34b5dcf9e28c27475d8401",
+                "description" : "Base PPNR",
+                "filename" : "B-PPNR.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 95490,
+                "status" : "Loaded",
+                "ordinal" : "7",
+                "lastUpdated" : 1530181083741.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BProvisions" : {
+                "fileId" : "5b34b5e1f9e28c27475d8405",
+                "description" : "Base Provisions",
+                "filename" : "B-Provisions.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 172076,
+                "status" : "Loaded",
+                "ordinal" : "8",
+                "lastUpdated" : 1530181088976.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BReqCap" : {
+                "fileId" : "5b34b5f7f9e28c27475d8409",
+                "description" : "Base Req Cap",
+                "filename" : "B-ReqCap.xlsx",
+                "calculationMode" : "Full calculation",
+                "filesizeBytes" : 728181,
+                "status" : "Loaded",
+                "ordinal" : "9",
+                "lastUpdated" : 1530181110959.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            }
+        },
+        "allScenarioFiles" : {
+            "EmbStratBox" : {
+                "fileId" : "5b34b548f9e28c27475d83bc",
+                "description" : "Emb > StratBox",
+                "filename" : "Emb-StratBox.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 2468183,
+                "status" : "Loaded",
+                "ordinal" : "1",
+                "lastUpdated" : 1530180936115.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "Macro" : {
+                "fileId" : "5b34b554f9e28c27475d83c7",
+                "description" : "Macro",
+                "filename" : "Macro.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 309319,
+                "status" : "Loaded",
+                "ordinal" : "2",
+                "lastUpdated" : 1530180948099.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "NIMBackB" : {
+                "fileId" : "5b34b55cf9e28c27475d83ca",
+                "description" : "NIM Back B",
+                "filename" : "NIMbackB.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 370044,
+                "status" : "Loaded",
+                "ordinal" : "3",
+                "lastUpdated" : 1530180956021.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "PLParameters" : {
+                "fileId" : "5b34b561f9e28c27475d83d1",
+                "description" : "P&L Parameters",
+                "filename" : "P&L parameters.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 88222,
+                "status" : "Loaded",
+                "ordinal" : "4",
+                "lastUpdated" : 1530180961037.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "RefVols" : {
+                "fileId" : "5b34b566f9e28c27475d83d3",
+                "description" : "Ref Vols",
+                "filename" : "Ref_vols.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 21289,
+                "status" : "Loaded",
+                "ordinal" : "5",
+                "lastUpdated" : 1530180965865.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "ReqCapCredit" : {
+                "fileId" : "5b34b572f9e28c27475d83d5",
+                "description" : "Req Cap Credit",
+                "filename" : "ReqCapcredit.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 617335,
+                "status" : "Loaded",
+                "ordinal" : "6",
+                "lastUpdated" : 1530180978240.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "AvailCapParam" : {
+                "fileId" : "5b34b596f9e28c27475d83de",
+                "description" : "Avail Cap Param",
+                "filename" : "AvailCap.xlsx",
+                "calculationMode" : "Full calculation",
+                "filesizeBytes" : 32236,
+                "status" : "Loaded",
+                "ordinal" : "7",
+                "lastUpdated" : 1530181014600.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "HistoricalGI" : {
+                "fileId" : "5b34b59bf9e28c27475d83e5",
+                "description" : "Historical GI",
+                "filename" : "Historical GI.xlsx",
+                "calculationMode" : "Full calculation",
+                "filesizeBytes" : 16753,
+                "status" : "Loaded",
+                "ordinal" : "8",
+                "lastUpdated" : 1530181019693.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            }
+        },
+        "switchboard" : {
+            "Base Scenario" : {
+                "name" : "Base Scenario",
+                "type" : "base",
+                "switches" : [ 
+                    {
+                        "businessUnit" : "bu1",
+                        "switches" : [ 
+                            {
+                                "key" : "BUNII",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUNFOI",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUEX",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUOPOER",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUASSETS",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BULIAB",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUPROV",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BURWA",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUEAD",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "CALCSPROV",
+                                "value" : "Bottom-up"
+                            }, 
+                            {
+                                "key" : "CALCLGPROV",
+                                "value" : "Bottom-up"
+                            }, 
+                            {
+                                "key" : "CALCLIR",
+                                "value" : "ON"
+                            }, 
+                            {
+                                "key" : "CALIBNIM",
+                                "value" : "ON"
+                            }, 
+                            {
+                                "key" : "CALIBCRRISK",
+                                "value" : "OFF"
+                            }, 
+                            {
+                                "key" : "CALIBFEES",
+                                "value" : "ON"
+                            }, 
+                            {
+                                "key" : "CALIBRWA",
+                                "value" : "OFF"
+                            }, 
+                            {
+                                "key" : "CALIBEAD",
+                                "value" : "OFF"
+                            }
+                        ]
+                    }, 
+                    {
+                        "businessUnit" : "Global",
+                        "switches" : [ 
+                            {
+                                "key" : "CAPPL",
+                                "value" : "Eur curr"
+                            }, 
+                            {
+                                "key" : "CAPRWA",
+                                "value" : "Eur const"
+                            }, 
+                            {
+                                "key" : "CAPPAY",
+                                "value" : "Top-down"
+                            }, 
+                            {
+                                "key" : "CAPDTA",
+                                "value" : "Top-down"
+                            }, 
+                            {
+                                "key" : "CAPSHORT",
+                                "value" : "Top-down"
+                            }
+                        ]
+                    }
+                ],
+                "lastModifiedBy" : "devteam",
+                "lastModifiedDate" : 1530181290367.0
+            }
+        },
+        "statusDescription" : null
+    }, 
+    {
+        "dataset" : {
+            "fileUploadIds" : [],
+            "scenarios" : [],
+            "scenarioDetails" : [],
+            "fileId" : null,
+            "taskId" : null,
+            "lastModifiedDate" : "2018-09-10T13:38:11.875Z"
+        },
+        "isSensitivityReleasedToAll" : false,
+        "departments" : null,
+        "isReleasedToAllDepartments" : false,
+        "businessUnits" : [ 
+            {
+                "type" : "Complex",
+                "isSpecialEliminacionesIntragrupo" : false,
+                "isSpecialHolding" : false,
+                "isSpecialUAI" : false,
+                "fiscalPerimeter" : null,
+                "_id" : "5b34b40407e0fb1964265790",
+                "aggregationLevel0" : "Grupo Santander",
+                "aggregationLevel1" : "l1",
+                "aggregationLevel2" : "l2",
+                "name" : "bu1",
+                "macroGeography" : "Spain",
+                "currency" : "EUR"
+            }
+        ],
+        "businessUnitPermissions" : [],
+        "copiedFromName" : "v2",
+        "_id" : "5b9673c35d7f1d05a8616933",
+        "name" : "v2 produced 2018-09-10 15:38:11",
+        "copiedFromId" : "5b34f1d1d102360810646e86",
+        "copiedFromDatasetFileId" : "5b34f1d6f9e28c2694742152",
+        "createdDate" : "2018-09-10T13:38:11.875Z",
+        "creator" : "super-admin",
+        "lastModifiedDate" : "2018-09-10T13:38:11.875Z",
+        "lastModifiedBy" : "super-admin",
+        "lastModifiedAction" : "status",
+        "status" : "In progress",
+        "baseScenarioFiles" : {
+            "BAvailCap" : {
+                "fileId" : "5b34b5a7f9e28c27475d83e7",
+                "description" : "Base Avail Cap",
+                "filename" : "B-AvCap.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 35449,
+                "status" : "Loaded",
+                "ordinal" : "1",
+                "lastUpdated" : 1530181031115.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BELVMG" : {
+                "fileId" : "5b34b5aff9e28c27475d83ec",
+                "description" : "Base ELVMG",
+                "filename" : "B-EL&VMG.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 353251,
+                "status" : "Loaded",
+                "ordinal" : "2",
+                "lastUpdated" : 1530181039476.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BFinStatBUp" : {
+                "fileId" : "5b34b5b9f9e28c27475d83ef",
+                "description" : "Base Fin Stat Bottom Up",
+                "filename" : "B-FinStatb-up.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 768499,
+                "status" : "Loaded",
+                "ordinal" : "3",
+                "lastUpdated" : 1530181048913.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BFinStatBUpAdj" : {
+                "fileId" : "5b34b5c5f9e28c27475d83f3",
+                "description" : "Base Fin Stat Bottom Up Adj",
+                "filename" : "B-FinStatb-up-adj.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 1169193,
+                "status" : "Loaded",
+                "ordinal" : "4",
+                "lastUpdated" : 1530181061179.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BNIMNewB" : {
+                "fileId" : "5b34b5cff9e28c27475d83f9",
+                "description" : "Base NIM New B",
+                "filename" : "B-NIMnewB.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 785592,
+                "status" : "Loaded",
+                "ordinal" : "5",
+                "lastUpdated" : 1530181071726.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BNOI" : {
+                "fileId" : "5b34b5d7f9e28c27475d83fe",
+                "description" : "Base NOI",
+                "filename" : "B-NOI.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 346635,
+                "status" : "Loaded",
+                "ordinal" : "6",
+                "lastUpdated" : 1530181079288.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BPPNR" : {
+                "fileId" : "5b34b5dcf9e28c27475d8401",
+                "description" : "Base PPNR",
+                "filename" : "B-PPNR.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 95490,
+                "status" : "Loaded",
+                "ordinal" : "7",
+                "lastUpdated" : 1530181083741.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BProvisions" : {
+                "fileId" : "5b34b5e1f9e28c27475d8405",
+                "description" : "Base Provisions",
+                "filename" : "B-Provisions.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 172076,
+                "status" : "Loaded",
+                "ordinal" : "8",
+                "lastUpdated" : 1530181088976.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "BReqCap" : {
+                "fileId" : "5b34b5f7f9e28c27475d8409",
+                "description" : "Base Req Cap",
+                "filename" : "B-ReqCap.xlsx",
+                "calculationMode" : "Full calculation",
+                "filesizeBytes" : 728181,
+                "status" : "Loaded",
+                "ordinal" : "9",
+                "lastUpdated" : 1530181110959.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            }
+        },
+        "allScenarioFiles" : {
+            "EmbStratBox" : {
+                "fileId" : "5b34b548f9e28c27475d83bc",
+                "description" : "Emb > StratBox",
+                "filename" : "Emb-StratBox.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 2468183,
+                "status" : "Loaded",
+                "ordinal" : "1",
+                "lastUpdated" : 1530180936115.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "Macro" : {
+                "fileId" : "5b34b554f9e28c27475d83c7",
+                "description" : "Macro",
+                "filename" : "Macro.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 309319,
+                "status" : "Loaded",
+                "ordinal" : "2",
+                "lastUpdated" : 1530180948099.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "NIMBackB" : {
+                "fileId" : "5b34b55cf9e28c27475d83ca",
+                "description" : "NIM Back B",
+                "filename" : "NIMbackB.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 370044,
+                "status" : "Loaded",
+                "ordinal" : "3",
+                "lastUpdated" : 1530180956021.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "PLParameters" : {
+                "fileId" : "5b34b561f9e28c27475d83d1",
+                "description" : "P&L Parameters",
+                "filename" : "P&L parameters.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 88222,
+                "status" : "Loaded",
+                "ordinal" : "4",
+                "lastUpdated" : 1530180961037.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "RefVols" : {
+                "fileId" : "5b34b566f9e28c27475d83d3",
+                "description" : "Ref Vols",
+                "filename" : "Ref_vols.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 21289,
+                "status" : "Loaded",
+                "ordinal" : "5",
+                "lastUpdated" : 1530180965865.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "ReqCapCredit" : {
+                "fileId" : "5b34b572f9e28c27475d83d5",
+                "description" : "Req Cap Credit",
+                "filename" : "ReqCapcredit.xlsx",
+                "calculationMode" : "B/S and P&L",
+                "filesizeBytes" : 617335,
+                "status" : "Loaded",
+                "ordinal" : "6",
+                "lastUpdated" : 1530180978240.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "AvailCapParam" : {
+                "fileId" : "5b34b596f9e28c27475d83de",
+                "description" : "Avail Cap Param",
+                "filename" : "AvailCap.xlsx",
+                "calculationMode" : "Full calculation",
+                "filesizeBytes" : 32236,
+                "status" : "Loaded",
+                "ordinal" : "7",
+                "lastUpdated" : 1530181014600.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            },
+            "HistoricalGI" : {
+                "fileId" : "5b34b59bf9e28c27475d83e5",
+                "description" : "Historical GI",
+                "filename" : "Historical GI.xlsx",
+                "calculationMode" : "Full calculation",
+                "filesizeBytes" : 16753,
+                "status" : "Loaded",
+                "ordinal" : "8",
+                "lastUpdated" : 1530181019693.0,
+                "uploadedBy" : "devteam",
+                "validationSummary" : "File OK",
+                "additionalComments" : null
+            }
+        },
+        "switchboard" : {
+            "Base Scenario" : {
+                "name" : "Base Scenario",
+                "type" : "base",
+                "switches" : [ 
+                    {
+                        "businessUnit" : "bu1",
+                        "switches" : [ 
+                            {
+                                "key" : "BUNII",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUNFOI",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUEX",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUOPOER",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUASSETS",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BULIAB",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUPROV",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BURWA",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "BUEAD",
+                                "value" : "2018"
+                            }, 
+                            {
+                                "key" : "CALCSPROV",
+                                "value" : "Bottom-up"
+                            }, 
+                            {
+                                "key" : "CALCLGPROV",
+                                "value" : "Bottom-up"
+                            }, 
+                            {
+                                "key" : "CALCLIR",
+                                "value" : "ON"
+                            }, 
+                            {
+                                "key" : "CALIBNIM",
+                                "value" : "ON"
+                            }, 
+                            {
+                                "key" : "CALIBCRRISK",
+                                "value" : "OFF"
+                            }, 
+                            {
+                                "key" : "CALIBFEES",
+                                "value" : "ON"
+                            }, 
+                            {
+                                "key" : "CALIBRWA",
+                                "value" : "OFF"
+                            }, 
+                            {
+                                "key" : "CALIBEAD",
+                                "value" : "OFF"
+                            }
+                        ]
+                    }, 
+                    {
+                        "businessUnit" : "Global",
+                        "switches" : [ 
+                            {
+                                "key" : "CAPPL",
+                                "value" : "Eur curr"
+                            }, 
+                            {
+                                "key" : "CAPRWA",
+                                "value" : "Eur const"
+                            }, 
+                            {
+                                "key" : "CAPPAY",
+                                "value" : "Top-down"
+                            }, 
+                            {
+                                "key" : "CAPDTA",
+                                "value" : "Top-down"
+                            }, 
+                            {
+                                "key" : "CAPSHORT",
+                                "value" : "Top-down"
+                            }
+                        ]
+                    }
+                ],
+                "lastModifiedBy" : "devteam",
+                "lastModifiedDate" : 1530181290367.0
+            }
+        }
+    }
+]}
