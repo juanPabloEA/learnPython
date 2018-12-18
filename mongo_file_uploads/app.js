@@ -11,6 +11,7 @@ const Grid = require('gridfs-stream');
 const methodOverride = require('method-override');
 const exerciseDA = require('./data-access/exercise');
 const fs = require('fs');
+const fsjson = require('./utils/fsJson')
 
 
 
@@ -30,29 +31,23 @@ const conn = mongoose.connection;
 // Init gfs
 let gfs;
 
+console.log('document json')
+console.log(fsjson.readJSONDocument());
+console.log('--------------')
+
 Grid.mongo = mongoose.mongo;
 conn.once('open', () => {
   // Init stream
-  var a = 2;
-  var b = 3;
-  a = a ^ b;
-  b = a ^ b;
-  a = a ^ b;
-  console.log("a = "+a );
-  console.log("b = "+b);
-  var objeto = ['name', 'juan pablo', 'edad', '24']
-  console.log(objeto);
-  var buf = Buffer.from(objeto);
-  console.log('buffer')
-  console.log(buf);
-  console.log('------------------')
-  console.log(buf.toString())
   gfs = Grid(conn.db);
   gfs.collection('uploads');
   console.log(mongoose.connection.readyState)
+  var idDoc =  mongoose.Types.ObjectId();
   var writestream = gfs.createWriteStream({
-    filename: 'mongo_file.txt'
+    _id: idDoc
   });
+  console.log('document json')
+  console.log(fsjson.readJSONDocument());
+  console.log('--------------')
   fs.createReadStream('./nuevo.json').pipe(writestream);
 
   writestream.on('close', function (file) {
