@@ -31,10 +31,6 @@ const conn = mongoose.connection;
 // Init gfs
 let gfs;
 
-console.log('document json')
-console.log(fsjson.readJSONDocument());
-console.log('--------------')
-
 Grid.mongo = mongoose.mongo;
 conn.once('open', () => {
   // Init stream
